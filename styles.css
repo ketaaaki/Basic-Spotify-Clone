@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: antiquewhite;
+    align-items: center;
+}
+nav ul li{
+    padding: 15px;
+}
+.brand img{
+    height: 45px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;   
+}
+.container{
+    min-height: 72vh;
+    font-family: 'Varela', sans-serif;
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    background-color: rgb(19, 2, 2);
+    color: antiquewhite;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 30px;
+    background-image: url('bg.jpg');
+}
+.songList ul{
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    text-indent: 21rem;
+    padding-top: 30px;
+    list-style-type: none;
+    padding-inline-start: 30px;
+}
+
+.bottom{
+    background-color: black;
+    color: antiquewhite;
+    position:relative;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0px;
+}
+.songInfo{
+    display: absolute;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    width: 100px;
+    height: 15px;
+}
+#myProgressBar{
+    display: block;
+    top: 5rem;
+    width: 50vw;
+    cursor: pointer;
+}
+h2{
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.icons img{
+    height: 30px;
+    width: 30px;
+}
+.icons{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.play{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+h1{
+    display:inline;
+}
+.songItem{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    height: 50px;
+    display: flex;
+    background-color: rgb(61, 245, 61);
+    width: 67%;
+    margin: 10px 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px; 
+}
+.songItem img{
+    width: 40px;
+    height: 40px;
+    margin: 0 23px;
+    filter: invert();
+    padding-left: 10px;
+    cursor: pointer;
+}
+.songlisplay{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
